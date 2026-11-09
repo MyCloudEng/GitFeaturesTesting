@@ -22,7 +22,8 @@ if __name__=="__main__":
     print(f"10 - 4 = {subtract(10, 4)}")
     print(f"4 * 5 = {multiply(4, 5)}")
     print(f"8 / 2 = {divide(8, 2)}")  # This will print 16 instead of 4
+    print(f'2 ^ 3 = {power(2, 3)}')
     
 # Append a power function
 def power(a,b): 
-    return a**b
+    return a**b    
